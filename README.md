@@ -8,7 +8,7 @@
 * `民 979 1`
 * `ㄇㄈ 979 1`
 * `ㄇ 979 1`
-其中 `ㄇㄈ` 是民（ㄇㄧㄣˊ）法（ㄈㄚˇ）的注音首字，若同個注音會對應多個法典（如刑法與憲法都是 ㄒㄈ），則會匹配到第一條。  
+其中 `ㄇㄈ` 是民（ㄇㄧㄣˊ）法（ㄈㄚˇ）的注音首字，若同個注音會對應多個法典（如刑法與憲法都是 ㄒㄈ），則會匹配到第一條。  
 支援常見法典簡稱（如 `中華民國刑法 = 刑法`、`刑事訴訟法 = 刑訴`、`社會秩序維護法 = 社維法`）。  
 若全名、注音、簡稱皆沒有找到匹配的法典，則會去尋找名稱最接近的法條，例如 `性平教` 會找到最接近的 `性別平等教育法`。  
 
@@ -16,8 +16,10 @@
 本程式為 Progressive Web App，支援離線使用（Service Worker），直接加到主畫面即可使用。  
 
 ## Build
-```npm run-script build
 ```
+npm run-script build
+```
+P.S. `react-scripts` is required.  
 
 ## 更新法條
 ``` # 第一次執行
@@ -30,7 +32,6 @@ node /path/to/this/project/law-generator/law-gen.js /path/to/kong0107/mojLawSpli
 # 記得要 build
 npm run-script build
 ```
-P.S. `react-scripts` is required.  
 
 ## 授權
 此程式由 [Allen Chou](https://allenchou.cc) 製作，以 MIT License 釋出。  
