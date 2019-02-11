@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.lawName {
+    font-size: 22px;
+}
+
+.lawContent {
+    font-size: 16px;
+    line-height: 22px;
+}
